@@ -10,11 +10,10 @@ add=$((a+b))
 sub=$((a-b))
         echo "Subtraction of a and b are $sub"
 
-            mul
-    = $((a * b))
+mul=$((a*b))
         echo "Multiplication of a and b are $mul"
 
-            div
+div
     = $((a / d))
         echo "division of a and b are $div"
 
