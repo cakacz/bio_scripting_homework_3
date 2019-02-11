@@ -2,7 +2,7 @@
 
 # Reading data from the user's input
 read -p 'Enter a : ' a
-read -p 'Enter b : ' b
+read -p 'Enter b (not 0) : ' b
 
 add=$((a+b))
         echo "Addition of a and b are $add"
@@ -13,7 +13,7 @@ sub=$((a-b))
 mul=$((a*b))
         echo "Multiplication of a and b are $mul"
 
-div=$((a/d))
+div=$((a/b))
         echo "division of a and b are $div"
 
             mod
