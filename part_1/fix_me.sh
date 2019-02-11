@@ -20,12 +20,10 @@ mod=$((a%b))
           echo "Modulus of a and b are $mod"
 
       ((++a))
-          echo "Increment
-          operator when applied on "a" results into a = $a"
+          echo "Increment operator when applied on "a" results into a = $a"
 
       ((--b))
-          echo "Decrement
-          operator when applied on "b" results into b = $b"
+          echo "Decrement operator when applied on "b" results into b = $b"
 
 (
 (--c)
