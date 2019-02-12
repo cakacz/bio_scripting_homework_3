@@ -12,5 +12,6 @@ logusers=`who | cut -d' ' -f1`
 echo "$logusers"
 
 #define variable for system uptime
-
+systime=`uptime`
+echo "$systime"
 
