@@ -4,12 +4,13 @@
 #will then write  these variables to log file in readable format
 
 #define variable to return data and time
-datetime=`date | awk '{print $2 $3 $4}'`
+datetime=`date | awk '{print $2, $3, $4}'`
 echo "$datetime"
 
 #define variable to return logged in users
 logusers=`who | cut -d' ' -f1`
 echo "$logusers"
+
 #define variable for system uptime
 
 
